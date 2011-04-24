@@ -142,3 +142,9 @@ ul li {
 .google {
   background: url(../imgs/google_16.png) no-repeat;
 }
+
+.email {
+  background: url(../imgs/email_16.png) no-repeat;
+  padding-left: 20px;
+}
+
