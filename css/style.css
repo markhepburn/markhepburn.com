@@ -62,8 +62,8 @@ html {
 
 .vcard {
   background-color: white;
-  width: 22em;
-  height: 11em;
+  width: 21em;
+  height: 10em;
   position: absolute;
   margin-left: -11em;
   left: 50%;
@@ -135,7 +135,7 @@ ul {
 }
 ul li {
   display: inline-block;
-  width: 9em;
+  width: 7em;
   margin-bottom: .4em;
   float: left;
 }
