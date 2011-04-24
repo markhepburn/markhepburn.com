@@ -137,6 +137,7 @@ ul li {
   display: inline-block;
   width: 9em;
   margin-bottom: .4em;
+  float: left;
 }
 ul li a {
   padding-left: 20px;
