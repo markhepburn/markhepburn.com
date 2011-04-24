@@ -75,11 +75,25 @@ html {
   font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 }
 
+.mediatitle {
+  font-family: Cambria, Georgia, serif;
+}
+.vcard h1 {
+  font-weight: bold;
+  font-size: 120%;
+}
+.vcard a.email {
+  font-style: italic;
+}
+
 .vcard a {
   text-decoration: none;
 }
 .vcard a, .vcard a:visited {
   color: black;
+}
+.vcard a:hover {
+  color: grey;
 }
 
 /* courtesy of css3please.com for these styling extras: */
