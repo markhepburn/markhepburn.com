@@ -70,8 +70,19 @@ html {
   top: 8em;
   padding: 2%;
   line-height: 120%;
+  /* http://blogs.sitepoint.com/eight-definitive-font-stacks-2/ */
+  /* font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; */
+  font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
 }
 
+.vcard a {
+  text-decoration: none;
+}
+.vcard a, .vcard a:visited {
+  color: black;
+}
+
+/* courtesy of css3please.com for these styling extras: */
 .rounded {
   -moz-border-radius: 5px; /* FF1+ */
   -webkit-border-radius: 5px; /* Saf3-4, iOS 1+, Android 1.5+ */
@@ -79,7 +90,6 @@ html {
   /* useful if you don't want a bg color from leaking outside the border: */
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
-
 .gradient {
   background-color: #EEEEEE;
   background-image: -moz-linear-gradient(top, #EEEEEE, #FFFFFF);
@@ -90,7 +100,6 @@ html {
   background-image: linear-gradient(top, #EEEEEE, #FFFFFF);
             filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#EEEEEE', EndColorStr='#FFFFFF');
 }
-
 .shadow {
   -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
   -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
@@ -98,6 +107,9 @@ html {
 }
 
 .mediatitle, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.mediatitle {
+  margin-bottom: 10px;
+}
 .mediatitle img {
   float:left;
   margin-right: 10px;
@@ -110,18 +122,10 @@ ul {
 ul li {
   display: inline-block;
   width: 9em;
-  padding-left: 20px;
   margin-bottom: .4em;
 }
-
-.vcard {
-  /* http://blogs.sitepoint.com/eight-definitive-font-stacks-2/ */
-  /* font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; */
-  font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
-}
-
-.vcard a {
-  text-decoration: none;
+ul li a {
+  padding-left: 20px;
 }
 
 .blog {
