@@ -107,10 +107,11 @@ html {
 ul {
   list-style-type: inline;
 }
-
 ul li {
   display: inline-block;
-  width: 10em;
+  width: 9em;
+  padding-left: 20px;
+  margin-bottom: .4em;
 }
 
 .vcard {
@@ -121,4 +122,23 @@ ul li {
 
 .vcard a {
   text-decoration: none;
+}
+
+.blog {
+  background: url(../imgs/rss_16.png) no-repeat;
+}
+.code {
+  background: url(../imgs/github_16.png) no-repeat;
+}
+.twitter {
+  background: url(../imgs/twitter_16.png) no-repeat;
+}
+.facebook {
+  background: url(../imgs/facebook_16.png) no-repeat;
+}
+.linkedin {
+  background: url(../imgs/linkedin_16.png) no-repeat;
+}
+.google {
+  background: url(../imgs/google_16.png) no-repeat;
 }
