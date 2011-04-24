@@ -139,7 +139,7 @@ ul li {
   margin-bottom: .4em;
   float: left;
 }
-ul li a {
+ul li a, .email {
   padding-left: 20px;
 }
 
@@ -164,6 +164,5 @@ ul li a {
 
 .email {
   background: url(../imgs/email_16.png) no-repeat;
-  padding-left: 20px;
 }
 
