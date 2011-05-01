@@ -134,35 +134,24 @@ ul {
   list-style-type: inline;
 }
 ul li {
-  display: inline-block;
   width: 7em;
   margin-bottom: .4em;
   float: left;
 }
 ul li a, .email {
   padding-left: 20px;
+  background-image: url(../imgs/sprites_16.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16px;
 }
 
-.blog {
-  background: url(../imgs/rss_16.png) no-repeat;
-}
-.code {
-  background: url(../imgs/github_16.png) no-repeat;
-}
-.twitter {
-  background: url(../imgs/twitter_16.png) no-repeat;
-}
-.facebook {
-  background: url(../imgs/facebook_16.png) no-repeat;
-}
-.linkedin {
-  background: url(../imgs/linkedin_16.png) no-repeat;
-}
-.google {
-  background: url(../imgs/google_16.png) no-repeat;
-}
+.blog     { background-position: 0 -80px; }
+.code     { background-position: 0 -32px; }
+.facebook { background-position: 0 -16px; }
+.google   { background-position: 0 -48px; }
+.linkedin { background-position: 0 -64px; }
+.twitter  { background-position: 0 -96px; }
 
-.email {
-  background: url(../imgs/email_16.png) no-repeat;
-}
+.email    { background-position: 0 0;     }
 
