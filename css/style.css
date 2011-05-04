@@ -104,20 +104,21 @@ html {
   /* useful if you don't want a bg color from leaking outside the border: */
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
-.gradient {
-  background-color: #EEEEEE;
-  background-image: -moz-linear-gradient(top, #EEEEEE, #FFFFFF);
-  background-image: -ms-linear-gradient(top, #EEEEEE, #FFFFFF);
-  background-image: -o-linear-gradient(top, #EEEEEE, #FFFFFF);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#EEEEEE), to(#FFFFFF));
-  background-image: -webkit-linear-gradient(top, #EEEEEE, #FFFFFF);
-  background-image: linear-gradient(top, #EEEEEE, #FFFFFF);
-            filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#EEEEEE', EndColorStr='#FFFFFF');
-}
 .shadow {
   -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
   -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
   box-shadow: 0px 2px 5px rgba(0,0,0,0.7);
+}
+/* http://www.colorzilla.com/gradient-editor/ */
+.gradient {
+  background: #EEEEEE; /* Old browsers */
+  background: -moz-linear-gradient(top, #E5E5E5 0%, #ffffff 20%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E5E5E5), color-stop(20%,#FFFFFF)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e5e5e5 0%,#FFFFFF 20%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e5e5e5 0%,#ffffff 20%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #e5e5e5 0%,#ffffff 20%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #e5e5e5 0%,#ffffff 20%); /* W3C */
 }
 
 .mediatitle, .bd {overflow:hidden; _overflow:visible; zoom:1;}
