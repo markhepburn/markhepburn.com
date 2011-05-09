@@ -72,11 +72,11 @@ html {
   line-height: 120%;
   /* http://blogs.sitepoint.com/eight-definitive-font-stacks-2/ */
   /* font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; */
-  font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .mediatitle {
-  font-family: Cambria, Georgia, serif;
+  font-family: Georgia, serif;
 }
 .vcard h1 {
   font-weight: bold;
