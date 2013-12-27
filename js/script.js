@@ -8,5 +8,23 @@ $(function() {
       height = $me.outerHeight();
   $me.css('margin-left', -width / 2);
 
-  // set up hovers
+  // set up hovers:
+  $('#urls li')
+    .mouseenter(function() {
+      var cls = findLinkType($(this));
+      $('.decorators').toggleClass(cls, true);
+    })
+    .mouseleave(function() {
+      var cls = findLinkType($(this));
+      $('.decorators').toggleClass(cls, false);
+    });
 });
+
+function findLinkType($el) {
+  var clss = $el.find('a').attr('class').split(/\s+/);
+  for (var i = 0, len = clss.length; i < len; i++) {
+    var cls = clss[i];
+    if (cls === 'url') continue;
+    return cls;
+  }
+}
