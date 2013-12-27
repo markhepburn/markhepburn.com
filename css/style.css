@@ -129,17 +129,6 @@ ul li a {
   height: 16px;
 }
 
-.blog     { background-position: 0 -80px; }
-.code     { background-position: 0 -32px; }
-.facebook { background-position: 0 -16px; }
-.google   { background-position: 0 -48px; }
-.linkedin { background-position: 0 -64px; }
-.twitter  { background-position: 0 -96px; }
-
-.email    { background-position: 0 0;     }
-
-/* New stuff */
-
 /* Centre the banner text (me) */
 #me {
     position: absolute;
