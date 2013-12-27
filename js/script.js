@@ -7,6 +7,11 @@ $(function() {
       width  = $me.outerWidth(),
       height = $me.outerHeight();
   $me.css('margin-left', -width / 2);
+  // The float-element hacks:
+  $('.holder').css({
+    width: width / 2,
+    height: height
+  });
 
   // set up hovers:
   $('#urls li')

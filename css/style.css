@@ -165,3 +165,20 @@ ul li a, .email {
     left: 50%;
 /* width will be set by js */
 }
+
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
+
+.decorators > .holder {
+    display: block;
+}
+#left > .holder {
+    float: right;
+}
+#right > .holder {
+    float: left
+}
