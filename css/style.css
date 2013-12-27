@@ -161,13 +161,16 @@ ul li a, .email {
 /* Centre the banner text (me) */
 #me {
     position: absolute;
-    top: 0;
     left: 50%;
 /* width will be set by js */
 }
 
+#left, #right {
+    width: 49%;
+}
 #left {
     float: left;
+    text-align: right;
 }
 #right {
     float: right;
