@@ -75,15 +75,9 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.mediatitle {
-  font-family: Georgia, serif;
-}
 .vcard h1 {
   font-weight: bold;
   font-size: 120%;
-}
-.vcard a.email {
-  font-style: italic;
 }
 
 .vcard a {
@@ -121,16 +115,6 @@ html {
   background: linear-gradient(top, #e5e5e5 0%,#ffffff 20%); /* W3C */
 }
 
-.mediatitle, .bd {overflow:hidden; _overflow:visible; zoom:1;}
-.mediatitle {
-  margin-bottom: 10px;
-}
-.mediatitle img {
-  float:left;
-  margin-right: 10px;
-  display:block;
-}
-
 ul {
   list-style-type: inline;
 }
@@ -139,10 +123,8 @@ ul li {
   margin-bottom: .4em;
   float: left;
 }
-ul li a, .email {
+ul li a {
   padding-left: 20px;
-  background-image: url(../imgs/sprites_16.png);
-  background-repeat: no-repeat;
   display: inline-block;
   height: 16px;
 }
