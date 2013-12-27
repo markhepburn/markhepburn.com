@@ -185,3 +185,28 @@ ul li a, .email {
 #right > .holder {
     float: left
 }
+
+/* hover / visibility stuff: */
+#left .blog,     #right .blog,
+#left .code,     #right .code,
+#left .twitter,  #right .twitter,
+#left .linkedin, #right .linkedin,
+#left .google,   #right .google,
+#left .email,    #right .email {
+    display: none;
+}
+/* over-rides */
+#left.blog .blog,
+#left.code .code,
+#left.twitter .twitter,
+#left.linkedin .linkedin,
+#left.google .google,
+#left.email .email,
+#right.blog .blog,
+#right.code .code,
+#right.twitter .twitter,
+#right.linkedin .linkedin,
+#right.google .google,
+#right.email .email {
+    display: block;
+}
