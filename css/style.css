@@ -156,3 +156,12 @@ ul li a, .email {
 
 .email    { background-position: 0 0;     }
 
+/* New stuff */
+
+/* Centre the banner text (me) */
+#me {
+    position: absolute;
+    top: 0;
+    left: 50%;
+/* width will be set by js */
+}
