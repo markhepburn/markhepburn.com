@@ -52,6 +52,12 @@ table {
 /* ************************************************ */
 
 
+// Colours:
+@background-clr: #C4C4C4;
+@link-clr: black;
+@link-hover-clr: grey;
+
+
 html {
   background: #C4C4C4 url(../imgs/felt.png) repeat;
 }
@@ -84,10 +90,10 @@ html {
   text-decoration: none;
 }
 .vcard a, .vcard a:visited {
-  color: black;
+  color: @link-clr;
 }
 .vcard a:hover {
-  color: grey;
+  color: @link-hover-clr;
 }
 
 /* courtesy of css3please.com for these styling extras: */
