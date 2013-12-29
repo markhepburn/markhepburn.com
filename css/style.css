@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ************************************************ */
+/*                 Actual styling                   */
+/* ************************************************ */
+html {
+  background: #2b2b2b url(../imgs/bo_play_pattern.png) repeat;
+}
+#container {
+  position: relative;
+}
+.vcard {
+  background-color: #ffffff;
+  width: 23em;
+  height: 10em;
+  position: absolute;
+  margin-left: -11.5em;
+  left: 50%;
+  top: 8em;
+  padding: 2em;
+  line-height: 120%;
+  /* http://blogs.sitepoint.com/eight-definitive-font-stacks-2/ */
+  /* font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.vcard h1 {
+  font-weight: bold;
+  font-size: 120%;
+  color: #0971b2;
+}
+.vcard a {
+  text-decoration: none;
+}
+.vcard a,
+.vcard a:visited {
+  color: #000000;
+}
+.vcard a:hover {
+  color: #1485cc;
+}
+/* courtesy of css3please.com for these styling extras: */
+.rounded {
+  -moz-border-radius: 5px;
+  /* FF1+ */
+  -webkit-border-radius: 5px;
+  /* Saf3-4, iOS 1+, Android 1.5+ */
+  border-radius: 5px;
+  /* Opera 10.5, IE9, Saf5, Chrome, FF4 */
+  /* useful if you don't want a bg color from leaking outside the border: */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.shadow {
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.7);
+}
+/* http://www.colorzilla.com/gradient-editor/ */
+.gradient {
+  background: #EEEEEE;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e5e5e5 0%, #ffffff 20%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(20%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e5e5e5 0%, #ffffff 20%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e5e5e5 0%, #ffffff 20%);
+  /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #e5e5e5 0%, #ffffff 20%);
+  /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
+  background: linear-gradient(top, #e5e5e5 0%, #ffffff 20%);
+  /* W3C */
+}
+ul {
+  list-style-type: inline;
+}
+ul li {
+  width: 7.666666666666667em;
+  margin-bottom: 0.4em;
+  float: left;
+}
+ul li a {
+  padding-left: 5px;
+  display: inline-block;
+  height: 16px;
+}
+/* Centre the banner text (me) */
+#me {
+  position: absolute;
+  left: 50%;
+  /* width will be set by js */
+}
+#left,
+#right {
+  width: 49%;
+  margin-bottom: 2em;
+}
+#left {
+  float: left;
+  text-align: right;
+}
+#right {
+  float: right;
+}
+.decorators > .holder {
+  display: block;
+}
+#left > .holder {
+  float: right;
+}
+#right > .holder {
+  float: left;
+}
+/* hover / visibility stuff: */
+#left .blog,
+#right .blog,
+#left .code,
+#right .code,
+#left .twitter,
+#right .twitter,
+#left .linkedin,
+#right .linkedin,
+#left .google,
+#right .google,
+#left .email,
+#right .email {
+  display: none;
+}
+/* over-rides */
+#left.blog .blog,
+#left.code .code,
+#left.twitter .twitter,
+#left.linkedin .linkedin,
+#left.google .google,
+#left.email .email,
+#right.blog .blog,
+#right.code .code,
+#right.twitter .twitter,
+#right.linkedin .linkedin,
+#right.google .google,
+#right.email .email {
+  display: block;
+  color: #0971b2;
+}
