@@ -59,12 +59,15 @@ table {
 @banner-clr: #0971B2;
 @card-background: white;
 
+@num-cols: 3;
+
 // Dimensions:
-@card-width: 21em;
+@card-width: 23em;
 @card-height: 10em;
+@card-padding: 2em;
 @card-top: 8em;
 @banner-link-gap: 2em;
-@link-width: 7em;
+@link-width: @card-width / @num-cols;
 @link-bot-pad: .4em;
 @link-height: 16px;
 @link-icon-gap: 5px;
@@ -86,7 +89,7 @@ html {
   margin-left: -@card-width / 2;
   left: 50%;
   top: @card-top;
-  padding: 2%;
+  padding: @card-padding;
   line-height: 120%;
   /* http://blogs.sitepoint.com/eight-definitive-font-stacks-2/ */
   /* font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; */
