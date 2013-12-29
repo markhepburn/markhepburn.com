@@ -55,8 +55,14 @@ table {
 // Colours:
 @background-clr: #2B2B2B;
 @link-clr: black;
-@link-hover-clr: grey;
+@link-hover-clr: #1485CC;
 @banner-clr: #0971B2;
+@card-background: white;
+
+// Dimensions:
+@card-width: 21em;
+@card-height: 10em;
+@card-top: 8em;
 
 
 html {
@@ -68,13 +74,13 @@ html {
 }
 
 .vcard {
-  background-color: white;
-  width: 21em;
-  height: 10em;
+  background-color: @card-background;
+  width: @card-width;
+  height: @card-height;
   position: absolute;
-  margin-left: -10.5em;
+  margin-left: -@card-width / 2;
   left: 50%;
-  top: 8em;
+  top: @card-top;
   padding: 2%;
   line-height: 120%;
   /* http://blogs.sitepoint.com/eight-definitive-font-stacks-2/ */
