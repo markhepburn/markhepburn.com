@@ -63,6 +63,10 @@ table {
 @card-width: 21em;
 @card-height: 10em;
 @card-top: 8em;
+@link-width: 7em;
+@link-bot-pad: .4em;
+@link-height: 16px;
+@link-icon-gap: 5px;
 
 
 html {
@@ -133,14 +137,14 @@ ul {
   list-style-type: inline;
 }
 ul li {
-  width: 7em;
-  margin-bottom: .4em;
+  width: @link-width;
+  margin-bottom: @link-bot-pad;
   float: left;
 }
 ul li a {
-  padding-left: 5px;
+  padding-left: @link-icon-gap;
   display: inline-block;
-  height: 16px;
+  height: @link-height;
 }
 
 /* Centre the banner text (me) */
