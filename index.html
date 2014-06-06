@@ -84,7 +84,6 @@
    ga('send', 'pageview');
 
    var trackOutboundLink = function(url) {
-     console.log('tracking click to', url);
      ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
         function () {
           document.location = url;
