@@ -92,8 +92,13 @@
    };
    $('.url').each(function() {
      $(this).click(function(e) {
-       trackOutboundLink($(e.target).attr('href'));
-       return false;
+       if (ga.hasOwnProperty('loaded') && ga.loaded === true) {
+         trackOutboundLink($(e.target).attr('href'));
+         return false;
+       } else {
+         // Adblock,etc -- just continue:
+         return true;
+       }
      });
    });
   </script>
