@@ -74,13 +74,29 @@
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/script.js"></script>
 
-  <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    try{
-    var pageTracker = _gat._getTracker("UA-9210840-1");
-    pageTracker._trackPageview();
-    } catch(err) {}
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-51704061-1', 'markhepburn.com');
+   ga('send', 'pageview');
+
+   var trackOutboundLink = function(url) {
+     console.log('tracking click to', url);
+     ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+        function () {
+          document.location = url;
+        }
+     });
+   };
+   $('.url').each(function() {
+     $(this).click(function(e) {
+       trackOutboundLink($(e.target).attr('href'));
+       return false;
+     });
+   });
   </script>
 </body>
 </html>
