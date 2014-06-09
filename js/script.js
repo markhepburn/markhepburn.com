@@ -4,8 +4,8 @@ $(function() {
   // get width and height of "markhepburn", plug those in so CSS can
   // do the rest:
   var $me    = $('#me'),
-      width  = $me.outerWidth(),
-      height = $me.outerHeight();
+      width  = $me.innerWidth(),
+      height = $me.innerHeight();
   $me.css('margin-left', -width / 2);
   // The float-element hacks:
   $('.holder').css({
