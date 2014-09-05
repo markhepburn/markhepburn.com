@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/markhepburn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.markhepburn.com
+  * I am markhepburn (https://keybase.io/markhepburn) on keybase.
+  * I have a public key with fingerprint 65D5 8DDA 447D 1466 CB47  911B EF73 DD14 3AB3 EAC0
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "65d58dda447d1466cb47911bef73dd143ab3eac0",
+            "host": "keybase.io",
+            "key_id": "ef73dd143ab3eac0",
+            "uid": "b6bca5b351c1848d6b91855f17665500",
+            "username": "markhepburn"
+        },
+        "service": {
+            "hostname": "www.markhepburn.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1409905852,
+    "expire_in": 157680000,
+    "prev": "0da723d69c5a6738ebe652811eca5169291a75711b100d50b3daf3c5ca4f900f",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.2
+Comment: https://keybase.io/crypto
+
+yMHrAnicO8LLzMDF+Dm0OX1j2+wtjKcP/C5lCOEs2VOtlJSfUqlkVa2UnQqm0jLz
+0lOLCooy80qUrJTMTFNMLVJSEk1MzFMMTczMkpNMzC0NDZNS08yNU4AixolJxqmJ
+yQZKOkoZ+cUgHUBjkhKLU/Uy84FiQE58ZgpQFIv6UrBEkllScqJpkrGpYbKhhYlF
+ilmSpaGFqWmaobmZmampAVhhcWpRXmJuKlB1bmJRdkZqQVJpUZ5SrY4SUKIsMzkV
+5GyQ7VBF5eXlekgK9ZLzc4GmFBTll+Qn5+cAFWSUlBRYgfSXVBaANaQmxUONik/K
+zEsBhgBQQ1lqUXFmfp6SlSFQZXJJJshsQxMDS0sDUwtTIx2l1IqCzKLU+EyQClNz
+MwsDIABZk1oGNNIgJdHcyDjFzDLZNNHM3NgiNSnVzNTIwtAwFehbQzNLI0vDRHNT
+c2BIGhoYpJgaJBmnJKYZJ5smJ5qkWRoYpCmBPFeYl69kBbSpJDEdaGRxZnpeYklp
+UapS7aEDMSwMjFwMbKxMoDhk4OIUgMXsv0T2f+qSi+MTVz33FeWye/wy3fDD702m
+L4PWvPZZ3fkuUuaG0NE+gYj3FgJNaxISjxXMv+dZtFf1tTund7GWwQqfPf5M0rdv
+dfVH5jorHzXIbb1cKurVsPi/SoJxT4janmfK9+ZPXNsXm5BrtmsP36IHr49nii2a
+Ivzh9rXFJhG9CtdkT10PY1PT4X/d4BTTET6F4Z8YM6Px1p11SpqeMiXvU/qnNq99
+lMl9hkf086M6Ls8w3txkPsePWrfPs/y7/6veu8c14yojT+aEnz5aPYEZjdG1IWnl
+V4UPXhXwSF/t8+37liPBP2NWyWTnrP51O/3Kwinzb+xWW3/+wrZ9JrYRck5yPEs3
+CKdvK4lTensEALFiFhs=
+=ZGWW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/markhepburn
+
+==================================================================
