@@ -202,7 +202,6 @@ html {
   /* W3C */
 }
 ul {
-  list-style-type: inline;
   overflow: auto;
   width: 100%;
 }
